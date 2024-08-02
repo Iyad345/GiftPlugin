@@ -1,0 +1,14 @@
+name: GiftPlugin
+main: GiftPlugin.Main
+version: 1.0.0
+author: Iyad
+api-version: '1.20'
+commands:
+   maildelivery:
+      description: Redeems gifts sent from other players
+      usage: /maildelivery
+      default: true
+   gift:
+      description: Sends the selected item to other players
+      usage: /gift <name of player>
+      default: true
